@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GBK"?>
+<config>
+	<group>
+		<property name="web.welcome.page" defaultValue="/index.jsp"></property>	
+	</group>
+	<script>
+		<generate template="template/web.xml" destfile="WEB-INF/web.xml"/>
+	</script>
+</config>
